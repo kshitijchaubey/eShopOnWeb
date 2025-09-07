@@ -76,6 +76,10 @@ jobs:
       uses: azure/login@v2
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+   # 🔥 Fix: Upgrade Azure CLI before using azure/arm-deploy
+    - name: Upgrade Azure CLI
+      run: az upgrade --yes
            
     # Deploy Azure WebApp using Bicep file
     - name: deploy

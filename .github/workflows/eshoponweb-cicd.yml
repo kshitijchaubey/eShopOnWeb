@@ -9,7 +9,7 @@ env:
   LOCATION: eastus
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 831d0aa2-ddf7-4ed2-8a3b-af3f6e90f847
-  WEBAPP-NAME: eshoponweb-webapp-Zenone
+  WEBAPP-NAME: eshoponweb-webapp-Zenone123789
 
 
 jobs:
